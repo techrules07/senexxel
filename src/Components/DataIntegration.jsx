@@ -8,145 +8,140 @@ import DataCard1 from '../assets/data-card-1.svg';
 import DataCard2 from '../assets/data-card-2.svg';
 import DataCard3 from '../assets/data-card-3.svg';
 
-
 const DataIntegration = () => {
-    return  <div>
-                        <p className="text-center text-4xl mt-10 font-[Barlow] font-semibold text-[black]">Data Integration Services</p>
-                
-                        <div className="flex flex-row my-[50px]">
-                            <div className="flex-[2] flex items-center justify-center">
-                                <div className="relative">
-                                    <img className="w-[300px] relative z-[1]" src={Data1}></img>
-                                    <img src={SemiCircleRect} className="absolute top-[-95px] left-[-95px] z-[0]" />
-                                    <img src={Dots} className="absolute bottom-[-50px] right-[-56px] z-[0]" />
-                                </div>
-                            </div>
-                            <div className="flex-[3] justify-center flex-col items-start flex ">
-                                <div className="flex bg-[#DFEEFF] rounded-full px-[12px]">
-                                    <label className="font-[Roboto] font-normal text-base text-[#014490]">UNLOCK BUSINESS POTENTIAL</label>
-                                </div>
-                                <label className="font-[Barlow] font-semibold text-3xl text-black mt-[10px]">Efficient API Ecosystems</label>
-                                <label className="mt-[20px] text-black w-[600px] font-[Roboto] font-normal text-[22px]">Develop robust APIs for seamless interaction across platforms Ensure secure, scalable, and reliable API management for enterprise growth.</label>
-                            </div>
-                
-                
-                        </div>
-                
-                        <div className="flex flex-row my-[150px]">
-                
-                            <div className="flex-[3] pl-[100px] justify-center flex-col items-start flex ">
-                                <div className="flex bg-[#DFEEFF] rounded-full px-[12px]">
-                                    <label className="font-[Roboto] font-normal text-base text-[#014490]">EMPOWER DIGITAL INTERACTIONS</label>
-                                </div>
-                                <label className="font-[Barlow] font-semibold text-3xl text-black mt-[10px]">APIs for Enhanced Connectivity</label>
-                                <label className="mt-[20px] text-black w-[600px] font-[Roboto] font-normal text-[22px]">Enable dynamic interactions between applications and systems. Drive innovation with APIs that deliver real-time functionality and scalability.</label>
-                            </div>
-                
-                            <div className="flex-[2] flex items-center justify-center">
-                                <div className="relative">
-                                    <img className="w-[300px] relative z-[1]" src={Data2}></img>
-                                    <div className="absolute top-[-70px] right-[-62px] z-[0] w-[160px] h-[160px] rounded-full bg-[#046BDF]" />
-                                    <img src={Dotted} className="absolute bottom-[-50px] left-[-45px] z-[0]" />
-                                </div>
-                            </div>
-                
-                        </div>
-                
-                        <div className="flex mt-[50px] justify-center flex-col items-center">
-                            <label className="text-black font-[Barlow] font-semibold text-3xl">Discover more of Managed IT Services</label>
-                
-                            <div className="flex flex-row w-full px-[44px] my-[36px]">
-                                <div className="flex flex-1 justify-center px-[22px]">
-                                    <div className="flex flex-col shadow-md border-[1px] border-[#CECECE] rounded-[10px] px-[12px] py-[24px]">
-                                        <div className="flex flex-row items-center">
-                                            <div className="flex flex-col items-center justify-center bg-[#EFFFEB] rounded-[10px] px-[15px] py-[15px]">
-                                                <img src={DataCard1} className="w-[50px]" />
-                                            </div>
-                
-                                            <label className="text-[#000000] font-[Barlow] font-medium text-[22px] ml-[15px]">IOT Integration</label>
-                                        </div>
-                
-                                        <label className="text-[Roboto] text-[#000000B3] text-base mt-[24px]">We integrate IoT devices with your IT systems for real-time data collection and improved automation.</label>
-                                    </div>
-                                </div>
-                
-                                <div className="flex flex-1 justify-center px-[22px]">
-                                    <div className="flex flex-col shadow-md border-[1px] border-[#CECECE] rounded-[10px] px-[12px] py-[24px]">
-                                        <div className="flex flex-row items-center">
-                                            <div className="flex flex-col items-center justify-center bg-[#EFFFEB] rounded-[10px] px-[15px] py-[15px]">
-                                                <img src={DataCard2} className="w-[50px]" />
-                                            </div>
-                
-                                            <label className="text-[#000000] font-[Barlow] font-medium text-[22px] ml-[15px]">Data Integration Services</label>
-                                        </div>
-                
-                                        <label className="text-[Roboto] text-[#000000B3] text-base mt-[24px]">Our data integration unifies multiple sources for real-time analytics and better decision-making</label>
-                                    </div>
-                                </div>
-                                <div className="flex flex-1 justify-center px-[22px]">
-                                    <div className="flex flex-col shadow-md border-[1px] border-[#CECECE] rounded-[10px] px-[12px] py-[24px]">
-                                        <div className="flex flex-row items-center">
-                                            <div className="flex flex-col items-center justify-center bg-[#EFFFEB] rounded-[10px] px-[15px] py-[15px]">
-                                                <img src={DataCard3} className="w-[50px]" />
-                                            </div>
-                
-                                            <label className="text-[#000000] font-[Barlow] font-medium text-[22px] ml-[15px]">Cloud Tech Integration</label>
-                                        </div>
-                
-                                        <label className="text-[Roboto] text-[#000000B3] text-base mt-[24px]">Our cloud integration links on-premises systems with cloud services for smooth data flow and collaboration.</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                
-                        <div className="flex flex-col w-full items-center justify-center py-[50px]">
-                            <div className="flex bg-[#DFEEFF] rounded-full px-[12px]">
-                                <label className="font-[Roboto] font-normal text-base text-[#014490]">Managed IT Services</label>
-                            </div>
-                            <label className="text-black font-[Barlow] font-semibold text-3xl mt-[20px]">Our Proven Path to Excellence</label>
-                
-                            <div className="flex w-[85%] bg-[#E9F0FF] rounded-[20px] mt-[30px] py-[15px]">
-                                <div className="flex flex-1 justify-center items-center flex-col px-[20px]">
-                                    <div className="justify-between h-[230px] flex flex-col relative bg-linear-to-b to-[#2C78CD] from-[#03295D] px-[20px] rounded-[10px] py-[20px] overflow-hidden">
-                                        <label className="relative text-[#D8FF8F] font-[Barlow] text-[28px] font-semibold">Requirement Analysis</label>
-                                         <label className="text-white font-[Roboto] text-xl mb-[30px]">Understanding and defining integration needs to ensure seamless communication between systems.</label>
-                
-                                         <div className="w-[100px] h-[100px] p-[12px] bg-[#F4FFC34D] rounded-full absolute right-[-45px] top-[-45px] flex flex-col justify-center items-center">
-                                            <div className="w-full h-full bg-[#F4FFC399] rounded-full flex justify-center items-center p-[12px]">
-                                                <div className="w-full h-full bg-[#F4FFC3] rounded-full"></div>
-                                            </div>
-                                         </div>
-                                    </div>
-                                </div>
-                
-                                <div className="flex flex-1 justify-center items-center flex-col px-[20px]">
-                                    <div className="justify-between h-[230px] flex flex-col relative bg-linear-to-b to-[#2C78CD] from-[#03295D] px-[20px] rounded-[10px] py-[20px] overflow-hidden">
-                                        <label className="relative text-[#D8FF8F] font-[Barlow] text-[28px] font-semibold">Custom Integration Development</label>
-                                         <label className="text-white font-[Roboto] text-xl mb-[30px]">Building tailored interfaces to connect diverse systems effectively.</label>
-                
-                                         <div className="w-[100px] h-[100px] p-[12px] bg-[#F4FFC34D] rounded-full absolute right-[-45px] top-[-45px] flex flex-col justify-center items-center">
-                                            <div className="w-full h-full bg-[#F4FFC399] rounded-full flex justify-center items-center p-[12px]">
-                                                <div className="w-full h-full bg-[#F4FFC3] rounded-full"></div>
-                                            </div>
-                                         </div>
-                                    </div>
-                                </div>
-                
-                                <div className="flex flex-1 justify-center items-center flex-col px-[20px]">
-                                    <div className="justify-between h-[230px] flex flex-col relative bg-linear-to-b to-[#2C78CD] from-[#03295D] px-[20px] rounded-[10px] py-[20px] overflow-hidden">
-                                        <label className="relative text-[#D8FF8F] font-[Barlow] text-[28px] font-semibold">Performance Optimization</label>
-                                         <label className="text-white font-[Roboto] text-xl mb-[30px]">Continuous monitoring to maintain efficiency and reduce downtime.</label>
-                
-                                         <div className="w-[100px] h-[100px] p-[12px] bg-[#F4FFC34D] rounded-full absolute right-[-45px] top-[-45px] flex flex-col justify-center items-center">
-                                            <div className="w-full h-full bg-[#F4FFC399] rounded-full flex justify-center items-center p-[12px]">
-                                                <div className="w-full h-full bg-[#F4FFC3] rounded-full"></div>
-                                            </div>
-                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-}
+  return (
+    <div className="px-4 md:px-10 lg:px-20">
+      <p className="text-center text-2xl sm:text-3xl lg:text-4xl mt-10 font-[Barlow] font-semibold text-black">
+        Data Integration Services
+      </p>
+
+      {/* Section 1 */}
+      <div className="flex flex-col md:flex-row items-center my-12 md:my-[50px] gap-8">
+        <div className="flex-1 flex justify-center">
+          <div className="relative">
+            <img className="w-[220px] sm:w-[280px] md:w-[300px] relative z-[1]" src={Data1} alt="Data 1" />
+            <img src={SemiCircleRect} className="absolute top-[-60px] sm:top-[-80px] left-[-70px] sm:left-[-95px] z-[0]" />
+            <img src={Dots} className="absolute bottom-[-40px] right-[-40px] z-[0]" />
+          </div>
+        </div>
+
+        <div className="flex-1 flex flex-col items-start text-center md:text-left">
+          <div className="bg-[#DFEEFF] rounded-full px-4 py-1 self-center md:self-start">
+            <span className="font-[Roboto] text-sm sm:text-base text-[#014490]">
+              UNLOCK BUSINESS POTENTIAL
+            </span>
+          </div>
+          <h2 className="font-[Barlow] font-semibold text-xl sm:text-2xl lg:text-3xl text-black mt-3">
+            Efficient API Ecosystems
+          </h2>
+          <p className="mt-4 text-black text-base sm:text-lg lg:text-xl font-[Roboto] max-w-xl">
+            Develop robust APIs for seamless interaction across platforms. Ensure secure,
+            scalable, and reliable API management for enterprise growth.
+          </p>
+        </div>
+      </div>
+
+      {/* Section 2 */}
+      <div className="flex flex-col-reverse md:flex-row items-center my-16 md:my-[150px] gap-8">
+        <div className="flex-1 flex flex-col items-start text-center md:text-left md:pl-10">
+          <div className="bg-[#DFEEFF] rounded-full px-4 py-1 self-center md:self-start">
+            <span className="font-[Roboto] text-sm sm:text-base text-[#014490]">
+              EMPOWER DIGITAL INTERACTIONS
+            </span>
+          </div>
+          <h2 className="font-[Barlow] font-semibold text-xl sm:text-2xl lg:text-3xl text-black mt-3">
+            APIs for Enhanced Connectivity
+          </h2>
+          <p className="mt-4 text-black text-base sm:text-lg lg:text-xl font-[Roboto] max-w-xl">
+            Enable dynamic interactions between applications and systems. Drive innovation
+            with APIs that deliver real-time functionality and scalability.
+          </p>
+        </div>
+
+        <div className="flex-1 flex justify-center">
+          <div className="relative">
+            <img className="w-[220px] sm:w-[280px] md:w-[300px] relative z-[1]" src={Data2} alt="Data 2" />
+            <div className="absolute top-[-50px] right-[-50px] w-[120px] sm:w-[160px] h-[120px] sm:h-[160px] rounded-full bg-[#046BDF]" />
+            <img src={Dotted} className="absolute bottom-[-40px] left-[-40px] z-[0]" />
+          </div>
+        </div>
+      </div>
+
+      {/* Discover Cards */}
+      <div className="flex flex-col items-center mt-10">
+        <h2 className="text-black font-[Barlow] font-semibold text-xl sm:text-2xl lg:text-3xl text-center">
+          Discover more of Managed IT Services
+        </h2>
+
+        <div className="flex flex-col sm:flex-row flex-wrap w-full justify-center gap-6 my-10 px-2">
+          {[ 
+            { img: DataCard1, title: "IOT Integration", desc: "We integrate IoT devices with your IT systems for real-time data collection and improved automation." },
+            { img: DataCard2, title: "Data Integration Services", desc: "Our data integration unifies multiple sources for real-time analytics and better decision-making." },
+            { img: DataCard3, title: "Cloud Tech Integration", desc: "Our cloud integration links on-premises systems with cloud services for smooth data flow and collaboration." }
+          ].map((card, idx) => (
+            <div key={idx} className="flex-1 min-w-[280px] max-w-sm shadow-md border border-[#CECECE] rounded-[10px] px-4 py-6">
+              <div className="flex flex-row items-center">
+                <div className="flex items-center justify-center bg-[#EFFFEB] rounded-[10px] p-3">
+                  <img src={card.img} className="w-[40px] sm:w-[50px]" alt={card.title} />
+                </div>
+                <span className="text-[#000] font-[Barlow] font-medium text-lg sm:text-xl ml-4">
+                  {card.title}
+                </span>
+              </div>
+              <p className="text-[#000000B3] text-sm sm:text-base mt-4 font-[Roboto]">
+                {card.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Excellence Path */}
+      <div className="flex flex-col items-center py-12">
+        <div className="bg-[#DFEEFF] rounded-full px-4 py-1">
+          <span className="font-[Roboto] text-sm sm:text-base text-[#014490]">
+            Managed IT Services
+          </span>
+        </div>
+        <h2 className="text-black font-[Barlow] font-semibold text-xl sm:text-2xl lg:text-3xl mt-5 text-center">
+          Our Proven Path to Excellence
+        </h2>
+
+        <div className="flex flex-col lg:flex-row gap-6 w-full mt-8 bg-[#E9F0FF] rounded-[20px] p-6">
+          {[
+            {
+              title: "Requirement Analysis",
+              desc: "Understanding and defining integration needs to ensure seamless communication between systems."
+            },
+            {
+              title: "Custom Integration Development",
+              desc: "Building tailored interfaces to connect diverse systems effectively."
+            },
+            {
+              title: "Performance Optimization",
+              desc: "Continuous monitoring to maintain efficiency and reduce downtime."
+            }
+          ].map((step, idx) => (
+            <div key={idx} className="flex-1 flex flex-col justify-between bg-gradient-to-b from-[#03295D] to-[#2C78CD] text-white rounded-[10px] p-6 relative overflow-hidden min-h-[220px]">
+              <h3 className="text-[#D8FF8F] font-[Barlow] text-lg sm:text-xl lg:text-2xl font-semibold">
+                {step.title}
+              </h3>
+              <p className="font-[Roboto] text-sm sm:text-base lg:text-lg mt-3">
+                {step.desc}
+              </p>
+
+              {/* Circle Accent */}
+              <div className="w-[80px] sm:w-[100px] h-[80px] sm:h-[100px] p-3 bg-[#F4FFC34D] rounded-full absolute right-[-30px] top-[-30px] flex justify-center items-center">
+                <div className="w-full h-full bg-[#F4FFC399] rounded-full flex justify-center items-center p-3">
+                  <div className="w-full h-full bg-[#F4FFC3] rounded-full"></div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default DataIntegration;

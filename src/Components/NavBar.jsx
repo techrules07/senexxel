@@ -87,6 +87,14 @@ const NavBar = () => {
             <a
               key={idx}
               onMouseEnter={item.onHover}
+              onClick={() => {
+                if (item.label === "About") {
+                  navigate("/about");
+                }
+                if (item.label === "Careers") {
+                  navigate("/careers");
+                }
+              }}
               className="flex items-center text-white px-3 py-2 text-[18px] font-medium font-[Barlow] cursor-pointer"
             >
               {item.label}
