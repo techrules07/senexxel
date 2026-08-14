@@ -121,7 +121,7 @@ const Landing = () => {
       <WhatWeProvide />
       <FoundationalBelieves />
       <OurPrinciples />
-      <TrustedIndustries />
+      {/* <TrustedIndustries /> */}
       <Footer />
     </div>
   );

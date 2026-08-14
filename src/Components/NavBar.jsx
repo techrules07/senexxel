@@ -77,7 +77,7 @@ const NavBar = () => {
           </a>
          
         </div>
-         <label className="font-[Barlow] text-white font-semibold text-sm absolute bottom-[-15px] left-[50px]">
+         <label className="hidden font-[Barlow] text-white font-semibold text-sm absolute bottom-[-15px] left-[50px]">
             An Evonsys company
           </label>
 

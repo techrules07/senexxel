@@ -14,7 +14,7 @@ const MenuItems = (props) => {
 
     const items = [
          { id: 1, parentId: 1, icon: SystemIntegration, label: "System Integration", description: 'Seamlessly connect your IT systems to streamline operations and enhance productivity.', link: '/system-integration' },
-                { id: 2, parentId: 1, icon: ManagedItServices, label: "Managed IT Services", description: 'Comprehensive IT management, ensuring your systems run smoothly with 24/7 support.', link: '/system-integration/api' },
+                // { id: 2, parentId: 1, icon: ManagedItServices, label: "Managed IT Services", description: 'Comprehensive IT management, ensuring your systems run smoothly with 24/7 support.', link: '/system-integration/api' },
                 { id: 3, parentId: 1, icon: ApplicationServices, label: "Application Services", description: 'Custom application development and maintenance to drive business growth and innovation.', link: '/system-integration/iot' },
                 { id: 4, parentId: 1, icon: InfraServices, label: "Infrastructure Services", description: 'Efficient management and optimization of your IT infrastructure for stability and scalability.', link: '/system-integration/data' },
                 { id: 5, parentId: 1, icon: BusinessProcess, label: "Business process Services", description: 'Automating and optimizing workflows to improve efficiency and reduce operational costs.', link: '/system-integration/cloud' },

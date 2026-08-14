@@ -15,7 +15,7 @@ const ServiceMenu = (props) => {
 
     const menuItems = [
         { id: 1, icon: SystemIntegration, label: "System Integration", description: 'Seamlessly connect your IT systems to streamline operations and enhance productivity.' },
-        { id: 2, icon: ManagedItServices, label: "Managed IT Services", description: 'Comprehensive IT management, ensuring your systems run smoothly with 24/7 support.' },
+        // { id: 2, icon: ManagedItServices, label: "Managed IT Services", description: 'Comprehensive IT management, ensuring your systems run smoothly with 24/7 support.' },
         { id: 3, icon: ApplicationServices, label: "Application Services", description: 'Custom application development and maintenance to drive business growth and innovation.' },
         { id: 4, icon: InfraServices, label: "Infrastructure Services", description: 'Efficient management and optimization of your IT infrastructure for stability and scalability.' },
         { id: 5, icon: BusinessProcess, label: "Business process Services", description: 'Automating and optimizing workflows to improve efficiency and reduce operational costs.' },

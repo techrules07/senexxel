@@ -19,7 +19,7 @@ const Footer = () => {
             </label>
             {[
               "Systems Integration",
-              "Managed IT Services",
+              // "Managed IT Services",
               "Application Services",
               "Infrastructure Services",
               "Business process Services",
