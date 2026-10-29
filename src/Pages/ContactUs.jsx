@@ -86,8 +86,7 @@ const ContactUs = () => {
                   </label>
                 </div>
                 <label className="font-[Roboto] font-normal text-sm text-[#000000] mt-[12px]">
-                  First floor, Technopearl, HITEC City, Hyderabad, Telangana,
-                  500081
+                  Aira Anusuya Heights, Kondapur, Hyderabad-500084
                 </label>
 
                 <div className="w-full flex justify-end flex-row mt-[20px] items-center">

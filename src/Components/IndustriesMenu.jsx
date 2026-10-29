@@ -49,13 +49,13 @@ const IndustriesMenu = (props) => {
         { id: 212, icon: Government, label: "Government", description: 'Modernizing government services with digital platforms, secure data management, and citizen-centric solutions. Our technology bridges the gap between public needs and efficient governance.' },
     ]
 
-    return <div className="w-full flex-row flex  bg-white px-[20px] py-[20px]">
+    return <div className="mt-3 w-full flex-row flex rounded-2xl bg-white px-[20px] py-[20px] shadow-lg">
         <div className="flex-[3] px-[20px] py-[20px] bg-[#F4F4F4] rounded-[10px] flex-col">
             <div className="flex flex-row items-center">
                 <label className="font-[Barlow] font-medium text-[#000000] text-lg">INDUSTRIES</label>
                 <img className="mx-[20px] h-[8px] w-[16px]" src={ArrowRight} />
             </div>
-            <div className="flex flex-col mt-[10px]  overflow-y-scroll h-[480px]">
+            <div className="flex flex-col mt-[10px] overflow-y-scroll h-[480px] pr-3">
                 {
                     menuItems.map(item => <ServiceMenuItems selectedItem={selectedItem} updateSelection={updateSelection} key={item.id} item={item} />)
                 }

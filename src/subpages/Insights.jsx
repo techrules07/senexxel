@@ -86,11 +86,11 @@ const Insights = () => {
             {[
               {
                 title: "About",
-                text: "At Senexxel, we deliver innovative solutions that empower businesses to grow and succeed. Our commitment is to excellence and meaningful impact",
+                text: "At Vinnteam, we deliver innovative solutions that empower businesses to grow and succeed. Our commitment is to excellence and meaningful impact",
               },
               {
                 title: "Careers",
-                text: "Join our team and turn your passion into purpose. At Senexxel, we foster growth, collaboration, and opportunities for success.",
+                text: "Join our team and turn your passion into purpose. At Vinnteam, we foster growth, collaboration, and opportunities for success.",
               },
               {
                 title: "Contact Us",

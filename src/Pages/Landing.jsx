@@ -16,12 +16,12 @@ const Landing = () => {
   return (
     <div className="flex flex-col bg-white">
       {/* Hero Section */}
-      <div className="flex flex-col bg-gradient-to-r from-[#03295D] to-[#2C78CD] pt-20">
+      <div className="flex flex-col bg-gradient-to-r from-[#38BDF8] to-[#0284C7] pt-20">
         <div className="flex flex-col lg:flex-row h-auto lg:h-screen">
           {/* Left Section */}
           <div className="flex-1 flex flex-col justify-center px-6 lg:px-12 mb-10 lg:mb-40">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-[Barlow] leading-snug">
-              <span className="text-[#B8FFA8]">Innovative</span> IT Solutions for
+              <span className="text-[#E0F2FE]">Innovative</span> IT Solutions for
               a Sustainable Future
             </h1>
             <p className="text-lg sm:text-xl mt-6 font-[Roboto] font-medium">
@@ -29,7 +29,7 @@ const Landing = () => {
             </p>
 
             <a href="/about" className="flex">
-              <div className="cursor-pointer rounded-lg mt-6 bg-gradient-to-t from-[#1061BD] to-[#0077FF] font-[Barlow] font-medium flex justify-center items-center text-base sm:text-lg py-3 px-6">
+              <div className="cursor-pointer rounded-lg mt-6 bg-gradient-to-t from-[#0369A1] to-[#0C4A6E] font-[Barlow] font-medium flex justify-center items-center text-base sm:text-lg py-3 px-6">
                 Explore now
               </div>
             </a>
@@ -59,7 +59,7 @@ const Landing = () => {
             Innovating Practical Solutions for a Sustainable Future
           </h2>
           <p className="mt-4 text-black font-[Barlow] font-normal text-base sm:text-lg max-w-xl">
-            Senexxel delivers practical, sustainable solutions using the latest
+            Vinnteam delivers practical, sustainable solutions using the latest
             technology.
           </p>
           <p className="mt-4 text-black font-[Barlow] font-normal text-base sm:text-lg max-w-xl">

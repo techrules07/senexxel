@@ -55,7 +55,7 @@ const OurAchievements = () => {
                         <img src={Quotes} className="w-[40px]" />
                         <label className="mt-[25px] text-black font-[Barlow] text-lg">We are dedicated to exceeding expectations and aligning with your vision, ensuring that your goals become our shared triumph. Your success fuels our drive and defines our purpose</label>
                         <label className="font-[Barlow] text-black text-base font-medium mt-[25px]">Mathew Jagan S</label>
-                        <label className="font-[Barlow] text-black text-base font-medium mt-[10px]">Founder and CTO , Senexxel</label>
+                        <label className="font-[Barlow] text-black text-base font-medium mt-[10px]">Founder and CTO, Vinnteam</label>
                     </div>
                     <div className="flex flex-1">
                         <img src={QuotesModel} />

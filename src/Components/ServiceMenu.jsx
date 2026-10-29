@@ -35,7 +35,7 @@ const ServiceMenu = (props) => {
         setSelectedSubItem(id);
     }
 
-    return <div onMouseLeave={() => { props.updateServiceMenu(false) }} onMouseEnter={() => { props.updateServiceMenu(true) }} className="w-full flex-row flex  bg-white px-[20px] py-[20px]">
+    return <div onMouseLeave={() => { props.updateServiceMenu(false) }} onMouseEnter={() => { props.updateServiceMenu(true) }} className="mt-3 w-full flex-row flex rounded-2xl bg-white px-[20px] py-[20px] shadow-lg">
         <div className="flex-[3] px-[20px] py-[20px] bg-[#F4F4F4] rounded-[10px] flex-col">
             <div className="flex flex-row items-center">
                 <label className="font-[Barlow] font-medium text-[#000000] text-lg">SERVICES</label>

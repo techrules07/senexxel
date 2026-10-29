@@ -3,7 +3,7 @@ import X from "../assets/X.svg";
 import Instagram from "../assets/instagram.svg";
 import Youtube from "../assets/Youtube.svg";
 import LinkedIn from "../assets/linkedIn.svg";
-import SenexxelLogo from "../assets/senexxel.svg";
+import VinnteamLogo from "../assets/vinnteam.svg";
 
 const Footer = () => {
   return (
@@ -147,7 +147,7 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="flex flex-col sm:flex-row pt-6 items-center justify-between gap-4">
         <a href="/">
-          <img src={SenexxelLogo} className="h-[28px] sm:h-[34px]" alt="logo" />
+          <img src={VinnteamLogo} className="h-[28px] sm:h-[34px]" alt="Vinnteam" />
         </a>
         <label className="font-[Roboto] font-normal text-sm sm:text-base text-white">
           ©2024, All Rights Reserved

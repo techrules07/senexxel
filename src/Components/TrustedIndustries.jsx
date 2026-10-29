@@ -4,7 +4,7 @@ import Play from "../assets/play.svg";
 import Quotes from "../assets/quotes.svg";
 import ContactUsPoster from "../assets/contact-us-poster.png";
 import ContactUsModel from "../assets/ContactUs-Model.png";
-import SenexxelLogo from "../assets/senexxel.svg";
+import VinnteamLogo from "../assets/vinnteam.svg";
 
 const TrustedIndustries = () => {
   return (
@@ -47,7 +47,7 @@ const TrustedIndustries = () => {
                 <img className="w-6" src={Quotes} alt="Quotes" />
               </div>
               <label className="text-[#59585A] mt-4 text-sm sm:text-base">
-                Senexxel made our operations smoother and more efficient. Their
+                Vinnteam made our operations smoother and more efficient. Their
                 team really understands what we need and gets the job done
                 right. They’re a trusted partner in our growth.
               </label>
@@ -93,8 +93,8 @@ const TrustedIndustries = () => {
             </label>
             <img
               className="cursor-pointer w-16 sm:w-[84px] ml-2"
-              src={SenexxelLogo}
-              alt="Senexxel Logo"
+              src={VinnteamLogo}
+              alt="Vinnteam logo"
             />
           </div>
         </div>

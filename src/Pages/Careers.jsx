@@ -46,7 +46,7 @@ const Careers = () => {
         {/* Bottom Group Image */}
         <img
           src={BannerGroupImage}
-          className="w-[70%] sm:w-[60%] md:w-[50%] lg:w-auto mx-auto mt-6 relative z-10"
+          className="w-[70%] sm:w-[60%] md:w-[50%] lg:w-auto mx-auto mt-6 relative z-0"
           alt="Banner Group"
         />
       </div>

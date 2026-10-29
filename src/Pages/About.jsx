@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import AboutFullScreen from "../assets/about-home.svg";
-import AboutLogo from "../assets/about-logo.svg";
 import VideoImg from "../assets/video-image.png";
 import BannerAbout from "../assets/Banner.png";
 import AboutCard from "../Components/AboutCard";
@@ -20,7 +19,7 @@ const About = () => {
       {/* Intro Text */}
       <div className="flex flex-col items-center w-full px-4 sm:px-6 md:px-12 lg:px-20 text-center max-w-[1000px] mx-auto">
         <label className="font-[Barlow] text-black font-semibold text-xl sm:text-2xl md:text-3xl lg:text-[28px] leading-relaxed">
-          Senexxel collaborates with businesses to create{" "}
+          Vinnteam collaborates with businesses to create{" "}
           <span className="bg-gradient-to-r from-[#294CF3] to-[#77CA04] bg-clip-text text-fill">
             transformative experiences
           </span>{" "}
@@ -32,13 +31,6 @@ const About = () => {
       <div className="flex flex-col justify-center items-center relative mt-10 px-4">
         <img src={AboutFullScreen} className="relative w-full max-w-[1200px] object-cover" alt="About Banner" />
 
-        {/* Logo Overlay */}
-        <img
-          src={AboutLogo}
-          className="absolute -bottom-20 sm:-bottom-28 md:-bottom-32 w-[120px] sm:w-[150px] md:w-[180px]"
-          alt="Logo"
-        />
-
         {/* Video Overlay */}
         <div className="absolute top-[15%] sm:top-[20%] w-[80%] sm:w-[70%] md:w-[600px] h-auto">
           <img src={VideoImg} className="w-full h-auto rounded-[12px] object-cover" alt="Video Placeholder" />
@@ -48,30 +40,30 @@ const About = () => {
 
       {/* Skills Section */}
       <div className="bg-white flex flex-col w-full items-center pt-[80px] pb-[50px] px-4 sm:px-6 md:px-12">
-        <label className="font-[Barlow] text-3xl sm:text-4xl md:text-5xl text-black font-semibold text-center">
+        <h2 className="font-[Barlow] text-3xl sm:text-4xl md:text-5xl text-black font-semibold text-center leading-tight">
           Our{" "}
-          <span className="bg-gradient-to-r from-[#046BDF] to-[#023A79] bg-clip-text text-fill">
+          <span className="bg-gradient-to-r from-[#046BDF] to-[#023A79] bg-clip-text text-transparent">
             Skill
           </span>
-        </label>
+        </h2>
 
         {/* Banner + Cards Overlay */}
         <div className="relative w-full mt-8">
           <img
             src={BannerAbout}
-            className="w-full object-cover rounded-lg"
+            className="w-full h-[600px] sm:h-[500px] lg:h-[440px] object-cover rounded-lg"
             alt="Skill Banner"
           />
 
-          <div className="sm:hidden lg:flex lg:absolute inset-0 flex-col items-start px-4 sm:px-8 md:px-12 lg:px-20 py-6">
-            <label className="text-white font-semibold text-xl sm:text-2xl md:text-3xl font-[Barlow] mb-6">
-              About Senexxel
-            </label>
+          <div className="absolute inset-0 flex flex-col items-start px-4 sm:px-8 md:px-12 lg:px-20 py-6">
+            <h3 className="text-white font-semibold text-xl sm:text-2xl md:text-3xl font-[Barlow] mb-6">
+              About Vinnteam
+            </h3>
 
             {/* Cards */}
-            <div className="flex flex-col sm:flex-row sm:flex-wrap justify-between w-full gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full gap-4 sm:gap-5 lg:gap-6 mt-auto">
               {aboutCards.map((item) => (
-                <div key={item.id} className="flex-1 min-w-[200px]">
+                <div key={item.id} className="min-w-0">
                   <AboutCard item={item} />
                 </div>
               ))}

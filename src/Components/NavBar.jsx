@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SenexxelLogo from "../assets/senexxel.svg";
+import VinnteamLogo from "../assets/vinnteam.svg";
 import ArrowDown from "../assets/DropdownPng.png";
 import Dialer from "../assets/dialer.svg";
 import ServiceMenu from "./ServiceMenu";
@@ -63,23 +63,22 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="navbar fixed top-0 w-full z-10 bg-gradient-to-r from-[#03295D] to-[#2C78CD] px-4 lg:px-[44px] py-4">
+    <nav className="navbar fixed top-0 w-full z-50 bg-gradient-to-r from-[#38BDF8] to-[#0284C7] px-4 lg:px-[44px] py-3">
       {/* Top Row */}
       <div className="flex justify-between items-center relative">
         {/* Logo */}
-        <div className="flex items-center relative">
+        <div className="flex flex-col items-start">
           <a href="/" className="flex items-center">
             <img
               className="h-[42px] w-[151px]"
-              src={SenexxelLogo}
-              alt="Your Company"
+              src={VinnteamLogo}
+              alt="Vinnteam"
             />
           </a>
-         
-        </div>
-         <label className="font-[Barlow] text-white font-semibold text-sm absolute bottom-[-15px] left-[50px]">
+          <span className="mt-1 w-[151px] text-center font-[Barlow] text-white font-semibold text-sm leading-tight">
             An Evonsys company
-          </label>
+          </span>
+        </div>
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center space-x-6">

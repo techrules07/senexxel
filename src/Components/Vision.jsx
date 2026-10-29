@@ -25,8 +25,8 @@ const Vision = () => {
   ]);
 
   const [reviews] = useState([
-    { id: 1, profile: FutureModel1, name: 'Jahan Melad', position: 'CTO, Senexxel', content: 'At Senexxel, every idea is valued, and innovation is a way of life. I feel inspired every day to contribute to meaningful projects that make a difference.' },
-    { id: 2, profile: FutureModel2, name: 'Savansa Mita', position: 'Team Lead, Senexxel', content: 'Working here means being part of a supportive team that celebrates diverse ideas. Together, we achieve more than I ever thought possible.' },
+    { id: 1, profile: FutureModel1, name: 'Jahan Melad', position: 'CTO, Vinnteam', content: 'At Vinnteam, every idea is valued, and innovation is a way of life. I feel inspired every day to contribute to meaningful projects that make a difference.' },
+    { id: 2, profile: FutureModel2, name: 'Savansa Mita', position: 'Team Lead, Vinnteam', content: 'Working here means being part of a supportive team that celebrates diverse ideas. Together, we achieve more than I ever thought possible.' },
     { id: 3, profile: FutureModel3, name: 'Andrew Bare', position: 'Product Designer', content: 'The company’s commitment to excellence is truly inspiring. I’m proud to work in an environment that prioritizes quality and values hard work.' }
   ]);
 
@@ -108,7 +108,7 @@ const Vision = () => {
       {/* Join Section */}
       <div className="w-full flex flex-col items-center pt-12">
         <label className="font-[Barlow] font-semibold text-2xl sm:text-3xl md:text-4xl text-black text-center">
-          Join at <span className="bg-gradient-to-r from-[#046BDF] to-[#B4FF05] bg-clip-text text-transparent">Senexxel</span> and Shape Your Future
+          Join at <span className="bg-gradient-to-r from-[#046BDF] to-[#B4FF05] bg-clip-text text-transparent">Vinnteam</span> and Shape Your Future
         </label>
 
         <div className="w-full overflow-x-auto mt-8">
